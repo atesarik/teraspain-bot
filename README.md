@@ -6,7 +6,7 @@
 
 # TERASPAIN ADMIN TOOLS
 
-**Bot personalizable de telegram escrito en bash para gestionar comandos personalizados.**
+**Bot personalizable de telegram escrito en bash.**
 
 ###  Características
 

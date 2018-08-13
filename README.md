@@ -21,6 +21,7 @@
 
 
 ### Requisitos de funcionamiento
+
 - GNU bash : Testado en bash, version 4.3.30(1)-release.
 - curl : Para las gestión de llamadas.
 - mcrcon : Para las funciones de rcon.
@@ -28,7 +29,11 @@
 - telegram : Necesario generar un bot y un token.
 - git : Para la instalación y actualización del bot.
 
-### Instalación Servidor
+### Captura de pantalla
+
+![](https://github.com/flowese/teraspain-bot/blob/master/img/screen.png?raw=true)
+
+### Instalación en el Servidor
 
 - Descargarse el repositorio con git y acceder al directorio. 
 
@@ -123,8 +128,5 @@
 
 ![](https://github.com/flowese/teraspain-bot/blob/master/img/flow-tsp-bot.png?raw=true)
 
-- Captura de pantalla
-
-![](https://github.com/flowese/teraspain-bot/blob/master/img/screen.png?raw=true)
 
 <h4> Este documento se encuentra constante en edición ... </h4>

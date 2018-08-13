@@ -1,4 +1,5 @@
 #!/bin/bash
+#MENU EDITBLE
 echo ------------------------------------------------------
 echo
 echo ·Comandos del Sistema - Solo Admins HubSpain autorizados

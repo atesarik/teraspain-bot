@@ -38,12 +38,12 @@
 
 ##### Creando el bot de telegram y obteniendo el token.
 - 1- Busca el usuario [@BotFather](https://telegram.me/botfather "@BotFather") desde telegram y pulsa iniciar. 
-- 2- Escribirle y mandarle el comando /newbot.
+- 2- Escríbele y mandale el comando /newbot.
 - 3- Nos pedirá un nombre para el bot, en Telegram es llamado en inglés "first_name".
 - 4- Nos pedirá un nombre de usuario para el bot, debe terminar con bot al final, en Telegram es llamado en inglés "username", y será para mencionar al bot con @UsuarioBot, no puede incluir espacios solamente _ ó alfanuméricos.
 - 5- Terminamos de crearlo, te mandará algo llamado HTTP API que será nuestra api_key, copiala, la necesitaremos.
 
-- 6- Editar fichero  tsbot.sh e introducir el token de telegam. 
+- 6- Editamod el fichero [tsbot.sh](https://github.com/flowese/teraspain-bot/blob/master/tspbot.sh "tsbot.sh") e introducir el token de telegam. 
 
 		TELEGRAMTOKEN="AQUI VA EL TOKEN DE TELEGRAM";
 
@@ -102,9 +102,9 @@
 		
 		)
 
-- 7- Establecer permisos de ejecución y lanzar el bot. 
+- 7- Establece permisos de ejecución y lanzar el bot. 
 
-        chmod -x tspbot  && ./tspbot.sh 
+        chmod -x tspbot && ./tspbot.sh 
 
 ### Información ampliada
 

@@ -115,7 +115,7 @@
 - A medida que vayamos puliendo errores y añadiendo funciones las publicaremos.
 - Recuerda que este bot lo utilizamos internamente y lo publicamos por si puede ser de utilidad para alguien mas.
 - Si gestionas servidores dedicados en linux es de gran utilidad.
-
+- Pued compilarse con shc para una versión minimalista.
 
 ### Flujo de solicitudes
 

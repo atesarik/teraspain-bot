@@ -107,15 +107,6 @@
 
 - Comunicación cliente/servidor
 
-```flow
-st=>start: Comando vía telegram
-op=>operation: TERASPAIN Bot
-cond=>condition: Comando definido SI o NO?
-e=>end: Linux Terminal
+![](https://github.com/flowese/teraspain-bot/blob/master/img/tsp_logo.png?raw=true)
 
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-
-<h4> Documento actualmente edición* </h4>
+<h4> Este documento se encuentra en edición </h4>

@@ -54,7 +54,7 @@ botcommands=(
 	["/updatemods"]="./scripts/update.sh"
 	["/backup"]="./scripts/backup.sh"
 	["/version"]="./scripts/version.sh"
-	["/rcon ([a-zA-Z0-9\.\-]+)"]="mcrcon -s -c -H 62.210.189.104 -P 27020 -p TEMPORADA @R1"
+	["/rcon ([a-zA-Z0-9\.\-]+)"]="mcrcon -s -c -H xxx.xxx.xxx.xxx -P xxxx -p XXXXXX @R1"
 )
 
 # + end config

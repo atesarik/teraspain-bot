@@ -4,7 +4,7 @@
 #Versión Actual.
 #@Designed by @flowese 
 #Powered by HubSpain Servers.
-VERSION="1.0.0"
+VERSION="1.5.0"
 
 # token predeterminado y ChatID
 # o ejecuta TSPBot con la opción: -t <token>

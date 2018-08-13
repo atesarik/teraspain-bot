@@ -35,10 +35,13 @@
 
 ### Instalación en el Servidor
 
-- Descargarse el repositorio con git y acceder al directorio. 
+- Descarga el repositorio con git. 
 
         git clone https://github.com/flowese/teraspain-bot.git
-		cd teraspain-bot/
+		
+		
+- Accede al directorio y edita el fichero con nano. 
+		 cd teraspain-bot/
 		nano tsbot.sh
 
 ##### Creando el bot de telegram y obteniendo el token.

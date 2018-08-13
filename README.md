@@ -104,7 +104,7 @@
 
 - 7- Establece permisos de ejecución y lanzar el bot. 
 
-        chmod -x tspbot && ./tspbot.sh 
+        chmod -x tspbot.sh && ./tspbot.sh 
 
 ### Información ampliada
 

@@ -16,6 +16,7 @@
 - Integración con comandos rcon para juegos de steam.
 - Integración con Plex Media Scanner.
 - Permite en envío de mensajes desde el bot a un canal o usuario.
+- Múltiples instancias a la vez con diferente token permitidas.
 - Proyecto nuevo y en desarrollo.
 
 

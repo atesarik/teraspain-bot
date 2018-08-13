@@ -6,7 +6,7 @@
 
 # TERASPAIN ADMIN TOOLS
 
-**Bot 100% personalizable desarrollado en bash e inicialmente para la gestión interna de nuestros servicios.**
+**Bot 100% personalizable desarrollado en bash e inicialmente destinado a la gestión interna de nuestros servicios.**
 
 ###  Características
 

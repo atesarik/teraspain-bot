@@ -46,18 +46,19 @@
  
 
 ##### Creando el bot de telegram y obteniendo el token.
-- 1- Busca el usuario [@BotFather](https://telegram.me/botfather "@BotFather") desde telegram y pulsa iniciar. 
-- 2- Escríbele y mandale el comando /newbot.
-- 3- Nos pedirá un nombre para el bot, en Telegram es llamado en inglés "first_name".
-- 4- Nos pedirá un nombre de usuario para el bot, debe terminar con bot al final, en Telegram es llamado en inglés "username", y será para mencionar al bot con @UsuarioBot, no puede incluir espacios solamente _ ó alfanuméricos.
-- 5- Terminamos de crearlo, te mandará algo llamado HTTP API que será nuestra api_key, copiala, la necesitaremos.
+- Busca el usuario [@BotFather](https://telegram.me/botfather "@BotFather") desde telegram y pulsa iniciar. 
+- Escríbele y mandale el comando /newbot.
+- Nos pedirá un nombre para el bot, en Telegram es llamado en inglés "first_name".
+- Nos pedirá un nombre de usuario para el bot, debe terminar con bot al final, en Telegram es llamado en inglés "username", y será para mencionar al bot con @UsuarioBot, no puede incluir espacios solamente _ ó alfanuméricos.
+- Terminamos de crearlo, te mandará algo llamado HTTP API que será nuestra api_key, copiala, la necesitaremos.
 
-- 6- Editamod el fichero [tsbot.sh](https://github.com/flowese/teraspain-bot/blob/master/tspbot.sh "tsbot.sh") e introducir el token de telegam. 
+- Editamos el fichero [tsbot.sh](https://github.com/flowese/teraspain-bot/blob/master/tspbot.sh "tsbot.sh") e introducir el token de telegam. 
 
 		TELEGRAMTOKEN="AQUI VA EL TOKEN DE TELEGRAM";
 
+##### Editando comandos personalizados.
 
-- 7- En el mismo fichero tspbot.sh deben editarse las rutas y los comandos deseados.
+- En el mismo fichero tspbot.sh deben editarse las rutas y los comandos deseados.
 
 		# Para añadir nuevos comandos debes usar esta sintaxis exacta: ["/micomando"] = '<comando del sistema>'
 		# También pueden especificarse rutas de scripts personalizados: ["/micomando"] = '</rutascript>'
@@ -111,7 +112,7 @@
 		
 		)
 
-- 7- Establece permisos de ejecución y lanzar el bot. 
+- Establece permisos de ejecución y lanzar el bot. 
 
         chmod -x tspbot.sh && ./tspbot.sh 
 

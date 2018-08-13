@@ -111,4 +111,4 @@
 
 ![](https://github.com/flowese/teraspain-bot/blob/master/img/flow-tsp-bot.png?raw=true)
 
-<h4> Este documento se encuentra en edición </h4>
+<h4> Este documento se encuentra en edición ... </h4>

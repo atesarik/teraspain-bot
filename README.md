@@ -8,7 +8,7 @@
 
 **Bot personalizable de telegram escrito en bash para gestionar comandos personalizados.**
 
-#Características
+###  Características
 
 - Bot simple y perfecto para automatizar tareas en entornos linux.
 - Admite comandos personalizados.
@@ -20,7 +20,7 @@
 
 
 
-##Requisitos de funcionamiento
+### Requisitos de funcionamiento
 - GNU bash : Testado en bash, version 4.3.30(1)-release.
 - curl : Para las gestión de llamadas.
 - mcrcon : Para las funciones de rcon.
@@ -28,7 +28,7 @@
 - telegram : Necesario generar un bot y un token.
 - git : Para la instalación y actualización del bot.
 
-##Instalación básica
+### Instalación básica
 
 - Descargarse el repositorio con git y acceder al directorio. 
 
@@ -92,7 +92,7 @@
 		)
 
 
-##Información ampliada
+### Información ampliada
 
 - En el directorio de /scripts se encuentran las funciones.
 - Pueden añadirse y/o desactivase comandos segun se prefiera.
@@ -103,7 +103,8 @@
 - Si gestionas servidores dedicados en linux es de gran utilidad.
 
 
-##Flujo de solicitudes
+### Flujo de solicitudes
+
 - Comunicación cliente/servidor
 
 ```flow
@@ -116,6 +117,5 @@ st->op->cond
 cond(yes)->e
 cond(no)->op
 ```
-<h1>
-Documento en edición*
-</h1>
+
+<h4> Documento actualmente edición* </h4>

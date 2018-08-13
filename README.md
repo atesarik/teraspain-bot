@@ -42,7 +42,9 @@
 - En el mismo fichero deben editarse las rutas y los comandos deseados.
 
 		# Para añadir nuevos comandos debes usar esta sintaxis exacta: ["/micomando"] = '<comando del sistema>'
+		# También pueden especificarse rutas de scripts personalizados: ["/micomando"] = '</rutascript>'
 		# Por favor, no te olvides de eliminar todos los comandos de ejemplo!
+		# Ten en cuenta la seguirdad de tu sistema!
 		
 		declare -A botcommands
 		botcommands=(

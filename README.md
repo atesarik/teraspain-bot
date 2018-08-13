@@ -137,7 +137,7 @@
 - Si gestionas servidores dedicados en linux es de gran utilidad.
 - Puede compilarse con shc si se desea para una versión minimalista.
 
-#### Compilar con shc
+#### Opción de compilar con shc:
 
 	shc -f tspbot.sh -o tspbot	
 

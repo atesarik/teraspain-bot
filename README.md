@@ -8,6 +8,8 @@
 
 **Bot 100% personalizable desarrollado en bash e inicialmente destinado a la gestión interna de nuestros servicios.**
 
+**Basado en la [API Oficial de Telegram](https://core.telegram.org/bots/api "API Oficial de Telegram").**
+
 ###  Características
 
 - Bot simple y perfecto para automatizar tareas en entornos linux.

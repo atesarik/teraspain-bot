@@ -116,7 +116,7 @@
 
         chmod -x tspbot.sh && ./tspbot.sh 
 	
-	#### Ya lo tienes todo listo!
+	#### ¡Ya lo tienes todo listo!
 
 ### Información ampliada
 

@@ -129,13 +129,17 @@
 ### Información ampliada
 
 - En el directorio de /scripts se encuentran las funciones.
-- Pueden añadirse y/o desactivase comandos segun se prefiera.
+- Pueden añadirse y/o desactivarse comandos según se prefiera.
 - Los comandos o scripts utilizados son desarrollos internos para teraspain.
 - Es una primera versión estable y funcional.
 - A medida que vayamos puliendo errores y añadiendo funciones las publicaremos.
 - Recuerda que este bot lo utilizamos internamente y lo publicamos por si puede ser de utilidad para alguien mas.
 - Si gestionas servidores dedicados en linux es de gran utilidad.
 - Puede compilarse con shc si se desea para una versión minimalista.
+
+#### Compilar con shc
+
+	shc -f tspbot.sh -o tspbot	
 
 ### Flujo de solicitudes
 

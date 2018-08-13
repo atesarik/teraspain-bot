@@ -41,8 +41,9 @@
 		
 		
 - Edita el fichero con nano o tu editor favorito. 
-		 
-		  nano tsbot.sh
+ 
+        nano tsbot.sh
+ 
 
 ##### Creando el bot de telegram y obteniendo el token.
 - 1- Busca el usuario [@BotFather](https://telegram.me/botfather "@BotFather") desde telegram y pulsa iniciar. 

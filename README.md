@@ -43,12 +43,12 @@
 - 4- Nos pedirá un nombre de usuario para el bot, debe terminar con bot al final, en Telegram es llamado en inglés "username", y será para mencionar al bot con @UsuarioBot, no puede incluir espacios solamente _ ó alfanuméricos.
 - 5- Terminamos de crearlo, te mandará algo llamado HTTP API que será nuestra api_key, copiala, la necesitaremos.
 
-- Editar fichero  tsbot.sh e introducir el token de telegam. 
+- 6- Editar fichero  tsbot.sh e introducir el token de telegam. 
 
 		TELEGRAMTOKEN="AQUI VA EL TOKEN DE TELEGRAM";
 
 
-- En el mismo fichero tspbot.sh deben editarse las rutas y los comandos deseados.
+- 7- En el mismo fichero tspbot.sh deben editarse las rutas y los comandos deseados.
 
 		# Para añadir nuevos comandos debes usar esta sintaxis exacta: ["/micomando"] = '<comando del sistema>'
 		# También pueden especificarse rutas de scripts personalizados: ["/micomando"] = '</rutascript>'
@@ -102,6 +102,9 @@
 		
 		)
 
+- 7- Establecer permisos de ejecución y lanzar el bot. 
+
+        chmod -x tspbot  && ./tspbot.sh 
 
 ### Información ampliada
 

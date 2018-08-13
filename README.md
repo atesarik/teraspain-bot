@@ -28,7 +28,7 @@
 - telegram : Necesario generar un bot y un token.
 - git : Para la instalación y actualización del bot.
 
-### Instalación básica
+### Instalación Servidor
 
 - Descargarse el repositorio con git y acceder al directorio. 
 
@@ -39,7 +39,10 @@
 
 		TELEGRAMTOKEN="AQUI VA EL TOKEN DE TELEGRAM";
 
-- En el mismo fichero deben editarse las rutas y los comandos deseados.
+# Cómo crear un bot en telegram.
+- Editar fichero  tsbot.sh e introducir el token de telegam. 
+
+- En el mismo fichero tspbot.sh deben editarse las rutas y los comandos deseados.
 
 		# Para añadir nuevos comandos debes usar esta sintaxis exacta: ["/micomando"] = '<comando del sistema>'
 		# También pueden especificarse rutas de scripts personalizados: ["/micomando"] = '</rutascript>'

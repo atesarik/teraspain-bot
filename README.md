@@ -113,6 +113,10 @@
 		
 		)
 
+- Edita el fichero helpmenu.sh a tu gusto ubicado en el directorio scripts/.
+
+		nano scripts/helpmenu.sh
+		
 - Establece permisos de ejecución y lanzar el bot. 
 
         chmod +x tspbot.sh 

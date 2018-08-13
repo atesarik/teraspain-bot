@@ -35,7 +35,6 @@
         git clone https://github.com/flowese/teraspain-bot.git
 		cd teraspain-bot/
 		nano tsbot.sh
-- Editar fichero  tsbot.sh e introducir el token de telegam. 
 
 ##### Creando el bot de telegram y obteniendo el token.
 - 1- Busca el usuario [@BotFather](https://telegram.me/botfather "@BotFather") desde telegram y pulsa iniciar. 
@@ -43,6 +42,8 @@
 - 3- Nos pedirá un nombre para el bot, en Telegram es llamado en inglés "first_name".
 - 4- Nos pedirá un nombre de usuario para el bot, debe terminar con bot al final, en Telegram es llamado en inglés "username", y será para mencionar al bot con @UsuarioBot, no puede incluir espacios solamente _ ó alfanuméricos.
 - 5- Terminamos de crearlo, te mandará algo llamado HTTP API que será nuestra api_key, copiala, la necesitaremos.
+
+- Editar fichero  tsbot.sh e introducir el token de telegam. 
 
 		TELEGRAMTOKEN="AQUI VA EL TOKEN DE TELEGRAM";
 

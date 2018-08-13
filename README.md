@@ -41,7 +41,8 @@
 		
 		
 - Accede al directorio y edita el fichero con nano. 
-		 cd teraspain-bot/
+		 
+		  cd teraspain-bot/
 		nano tsbot.sh
 
 ##### Creando el bot de telegram y obteniendo el token.

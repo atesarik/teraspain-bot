@@ -8,7 +8,7 @@
 
 **Bot personalizable de telegram escrito en bash para gestionar comandos personalizados.**
 
-##Características
+#Características
 
 - Bot simple y perfecto para automatizar tareas en entornos linux.
 - Admite comandos personalizados.
@@ -20,7 +20,7 @@
 
 
 
-###Requisitos de funcionamiento
+##Requisitos de funcionamiento
 - GNU bash : Testado en bash, version 4.3.30(1)-release.
 - curl : Para las gestión de llamadas.
 - mcrcon : Para las funciones de rcon.
@@ -28,7 +28,7 @@
 - telegram : Necesario generar un bot y un token.
 - git : Para la instalación y actualización del bot.
 
-###Instalación básica
+##Instalación básica
 
 - Descargarse el repositorio con git y acceder al directorio. 
 
@@ -46,15 +46,21 @@
 		
 		declare -A botcommands
 		botcommands=(
+		
 		##Comandos de interacción.
+		
 		["/hola"]='echo "Hola @FIRSTNAME, soy el bot oficial de TERASPAIN, estoy aquñi para ayudarte."'
 		["/adios"]='echo "Adiós @FIRSTNAME, un placer conocerte, que tengas un buen día :D"'
 		["/team"]='echo Master Admins:; echo "@flowese"; echo "@blind"'
+		
 		##Comandos de Inicio y Ayuda.	
+		
 		["/start"]="./scripts/helpmenu.sh"
 		["/ayuda"]="./scripts/helpmenu.sh"
 		["/help"]="./scripts/helpmenu.sh"
+		
 		##Comandos de Sistema. 	
+		
 		["/uptime"]="uptime -p"
 		["/ping (.*)"]="ping -c 1 -t 1 -W 1 @R1"
 		["/pingc"]="./scripts/globalping.sh"
@@ -62,10 +68,14 @@
 		["/short (.*)"]="./scripts/short.sh -s @R1"
 		["/getip"]="./scripts/gethostip.sh"
 		["/rebootds"]="./scripts/rebootsv.sh"
+		
 		##Comandos de Plex. 
+		
 		["/plex ([a-zA-Z0-9\.\-]+)"]="service plexmediaserver @R1"
 		["/plexscan"]="./scripts/pmsc.sh"
+		
 		##Comandos de ARK:TSP.
+		
 		["/synctime"]="./scripts/set_sync_es.sh"
 		["/setday"]="./scripts/set_time_day.sh"
 		["/setnight"]="./scripts/set_time_night.sh"
@@ -78,10 +88,11 @@
 		["/backup"]="./scripts/backup.sh"
 		["/version"]="./scripts/version.sh"
 		["/rcon ([a-zA-Z0-9\.\-]+)"]="mcrcon -s -c -H xxx.xxx.xxx.xxx -P xxxx -p XXXXXX @R1"
+		
 		)
 
 
-###Información ampliada
+##Información ampliada
 
 - En el directorio de /scripts se encuentran las funciones.
 - Pueden añadirse y/o desactivase comandos segun se prefiera.
@@ -92,7 +103,7 @@
 - Si gestionas servidores dedicados en linux es de gran utilidad.
 
 
-###Flujo de solicitudes
+##Flujo de solicitudes
 - Comunicación cliente/servidor
 
 ```flow

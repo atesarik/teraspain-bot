@@ -35,6 +35,7 @@ botcommands=(
 	["/uptime"]="uptime -p"
 	["/ping (.*)"]="ping -c 1 -t 1 -W 1 @R1"
 	["/pingc"]="./scripts/globalping.sh"
+	["/speedtest"]="./scripts/speedtest.sh"
 	["/whois ([a-zA-Z0-9\.\-]+)"]="/usr/bin/whois @R1" 	
 	["/short (.*)"]="./scripts/short.sh -s @R1"
 	["/getip"]="./scripts/gethostip.sh"

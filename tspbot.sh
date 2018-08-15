@@ -54,7 +54,7 @@ botcommands=(
 	["/vermods"]="./scripts/vermods.sh"
 	["/updatemods"]="./scripts/update.sh"
 	["/backup"]="./scripts/backup.sh"
-	["/version"]="./scripts/version.sh"
+	["/version"]="./scripts/versions.sh"
 	["/rcon ([a-zA-Z0-9\.\-]+)"]="mcrcon -s -c -H xxx.xxx.xxx.xxx -P xxxx -p XXXXXX @R1"
 )
 

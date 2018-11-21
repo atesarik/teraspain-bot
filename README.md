@@ -147,5 +147,8 @@
 
 ![](https://github.com/flowese/teraspain-bot/blob/master/img/flow-tsp-bot.png?raw=true)
 
+### Comunicación
+Servidor TeamSpeak3: teraspain.com
+Contacto: flowese@hubspain.com
 
 <h4> Este documento se encuentra constante en edición ... </h4>

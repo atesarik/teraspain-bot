@@ -24,7 +24,7 @@ CHECKNEWMSG=2;
 declare -A botcommands
 botcommands=(
 ##Comandos de interacción.
-	["/hola"]='echo "Hola @FIRSTNAME, soy el bot oficial de TERASPAIN, estoy aquñi para ayudarte."'
+	["/hola"]='echo "Hola @FIRSTNAME, soy el bot oficial de TERASPAIN, estoy aquí para ayudarte."'
        ["/adios"]='echo "Adiós @FIRSTNAME, un placer conocerte, que tengas un buen día :D"'
 	["/team"]='echo Master Admins:; echo "@flowese"; echo "@blind"'
 ##Comandos de Inicio y Ayuda.	
